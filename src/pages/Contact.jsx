@@ -4,7 +4,7 @@ import TextField from '@mui/material/TextField';
 
 export default function BasicTextFields() {
   return (
-    <div className="form container">
+    <div className="form">
         <Box
           component="form"
           sx={{

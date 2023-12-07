@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className='container about'>
+    <div className='about'>
       <p>
       Welcome to Mitho Coffee - Where Coffee Meets Perfection!
 
