@@ -1,5 +1,5 @@
 import React from 'react'
-import './TopRated.css'
+import '../styles/TopRated.css'
 
 const TopRated = () => {
     const items = [

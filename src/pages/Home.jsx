@@ -1,5 +1,5 @@
 import React from 'react'
-import './Home.css'
+import '../styles/Home.css'
 import TopRated from './TopRated';
 
 import { InputAdornment, TextField } from "@mui/material";
