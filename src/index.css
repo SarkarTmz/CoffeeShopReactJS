@@ -33,9 +33,8 @@
   padding: 0;
   box-sizing: border-box;
   line-height: 1.5;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
-
 /* body{
   background-color: var(--clr-dark);
   color: var(--clr-light);

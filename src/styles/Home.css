@@ -1,5 +1,11 @@
+.pp{
+    height: 600px;
+}
+.pp img{
+    /* height: 100%; */
+}
 .home{
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 .home-img{
     width: 100%;
