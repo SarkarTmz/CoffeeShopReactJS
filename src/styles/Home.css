@@ -53,6 +53,9 @@
         height: 400px;
         object-fit: cover;
     }
+    .home{
+        margin-top: 5rem;
+    }
   }
   
     /* lg */

@@ -11,9 +11,9 @@ import MobileNav from './component/MobileNav';
 const App = () => {
   return (
     <>
+          <Navbar />
       <div className="app container">
-        <Navbar />
-        <MobileNav/>
+      <MobileNav/>
             <Routes>
               <Route path='/' element={<Home/>} />
               <Route path='about' element={<About/>} />
