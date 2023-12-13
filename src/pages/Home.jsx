@@ -8,8 +8,10 @@ import img1 from '../images/1.webp'
 import img2 from '../images/2.webp'
 import img3 from '../images/3.jpg'
 import img4 from '../images/4.jpg'
-import img5 from '../images/5.jpg'
-
+import img5 from '../images/5.webp'
+import img6 from '../images/6.jpg'
+import img7 from '../images/7.jpg'
+import img8 from '../images/8.jpg'
 
 const Home = () => {
   return (
@@ -24,35 +26,35 @@ const Home = () => {
           >
                       <div className='pp'>
                           <img src={img1} />
-                          <p className="legend">Legend 1</p>
+                          <p className="legend">Espresso</p>
                       </div>
                       <div className='pp'>
                           <img src={img2} />
-                          <p className="legend">Legend 2</p>
+                          <p className="legend">Americano</p>
                       </div>
                       <div className='pp'>
                           <img src={img3} />
-                          <p className="legend">Legend 3</p>
+                          <p className="legend">Macchiato</p>
+                      </div>
+                      <div className='pp'>
+                          <img src={img5} />
+                          <p className="legend">Iced Coffee</p>
+                      </div>
+                      <div className='pp'>
+                          <img src={img6} />
+                          <p className="legend">Hot Chocolate</p>
+                      </div>
+                      <div className='pp'>
+                          <img src={img7} />
+                          <p className="legend">Mocha</p>
                       </div>
                       <div className='pp'>
                           <img src={img4} />
-                          <p className="legend">Legend 4</p>
+                          <p className="legend">Latte</p>
                       </div>
                       <div className='pp'>
-                          <img src={img5} />
-                          <p className="legend">Legend 4</p>
-                      </div>
-                      <div className='pp'>
-                          <img src={img5} />
-                          <p className="legend">Legend 4</p>
-                      </div>
-                      <div className='pp'>
-                          <img src={img5} />
-                          <p className="legend">Legend 4</p>
-                      </div>
-                      <div className='pp'>
-                          <img src={img5} />
-                          <p className="legend">Legend 4</p>
+                          <img src={img8} />
+                          <p className="legend">Cold Brew</p>
                       </div>
           </Carousel>
           <div className="items">
