@@ -1,8 +1,32 @@
 .pp{
+    position: absolute;
+    padding: 5rem 0;
+    bottom: 0px;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-image: linear-gradient(rgb(0,0,0,0), rgb(0,0,0,1));
+    opacity: 1;
+    transition: opacity .3s;
+}
+.pp p{
+    color: var(--clr-light);
+    font-size: 2rem;
+}
+.dd{
+    /* position: absolute; */
+    width: 100%;
+}
+.image{
     height: 600px;
 }
-.pp img{
-    /* height: 100%; */
+.image img{
+    margin: auto;
+    display: block;
+    width: 100%;
 }
 .home{
     margin-top: 2rem;

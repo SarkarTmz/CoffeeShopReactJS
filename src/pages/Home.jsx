@@ -14,48 +14,76 @@ import img7 from '../images/7.jpg'
 import img8 from '../images/8.jpg'
 
 const Home = () => {
+    const menu = [
+        {
+            id : 1,
+            img : img1,
+            title : 'Espresso'
+        },
+        {
+            id : 2,
+            img : img2,
+            title : 'Americano'
+        },
+        {
+            id : 3,
+            img : img3,
+            title : 'Macchiato'
+        },
+        {
+            id : 4,
+            img : img5,
+            title : 'Iced Coffee'
+        },
+        {
+            id : 5,
+            img : img6,
+            title : 'Hot Chocolate'
+        },
+        {
+            id : 6,
+            img : img7,
+            title : 'Mocha'
+        },
+        {
+            id : 7,
+            img : img4,
+            title : 'Latte'
+        },
+        {
+            id : 8,
+            img : img8,
+            title : 'Cold Brew',
+        },
+    ]
   return (
     <>
       <div className='home'>
           <Carousel
+              className='dd'
               showThumbs={false}
               autoPlay={true}
               transitionTime={3}
               infiniteLoop={true}
               showStatus={false}
           >
-                      <div className='pp'>
-                          <img src={img1} />
-                          <p className="legend">Espresso</p>
-                      </div>
-                      <div className='pp'>
-                          <img src={img2} />
-                          <p className="legend">Americano</p>
-                      </div>
-                      <div className='pp'>
-                          <img src={img3} />
-                          <p className="legend">Macchiato</p>
-                      </div>
-                      <div className='pp'>
-                          <img src={img5} />
-                          <p className="legend">Iced Coffee</p>
-                      </div>
-                      <div className='pp'>
-                          <img src={img6} />
-                          <p className="legend">Hot Chocolate</p>
-                      </div>
-                      <div className='pp'>
-                          <img src={img7} />
-                          <p className="legend">Mocha</p>
-                      </div>
-                      <div className='pp'>
-                          <img src={img4} />
-                          <p className="legend">Latte</p>
-                      </div>
-                      <div className='pp'>
-                          <img src={img8} />
-                          <p className="legend">Cold Brew</p>
-                      </div>
+{/*                     
+                <div className='pp'>
+                    <img src={img8} />
+                    <p className="legend">Cold Brew</p>
+                </div> */}
+                {
+                    menu.map((item) =>(
+                        <>
+                        <div className="image">
+                            <img src={item.img} />
+                        </div>
+                        <div className='pp'>
+                            <p className="">{item.title}</p>
+                        </div>
+                        </>
+                    ))
+                }
           </Carousel>
           <div className="items">
               <button className='btn'>Coffee</button>
