@@ -13,6 +13,7 @@ import img6 from '../images/6.jpg'
 import img7 from '../images/7.jpg'
 import img8 from '../images/8.jpg'
 import Menu from '../component/Menu';
+import Tea from './Tea';
 
 const Home = () => {
     const menu = [
@@ -88,7 +89,13 @@ const Home = () => {
               <button className='btn'>Cookie</button>
               <button className='btn'>Cake</button>
           </div>
-          <TopRated />
+          <div className="section">
+            <TopRated />
+          </div>
+          <div className="section">
+            <Tea/>
+          </div>
+        
           {/* <Menu/> */}
       </div>
     </>

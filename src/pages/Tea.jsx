@@ -10,55 +10,43 @@ import img6 from '../images/6.jpg'
 import img7 from '../images/7.jpg'
 import img8 from '../images/8.jpg'
 
-const TopRated = () => {
+const Tea = () => {
     const items = [
         {
             id : 1,
-            img : img1,
+            img : "https://akm-img-a-in.tosshub.com/sites/visualstory/stories/2023_08/story_55314/assets/2.jpeg?time=1691768874&size=*:900",
             price:'$30',
-            title : 'Espresso'
+            title : 'Green Tea'
         },
         {
             id : 2,
-            img : img2,
-            title : 'Americano',
+            img : "https://brodandtaylor.com/cdn/shop/articles/dehydrated-tea-thumb_1024x.jpg?v=1639765759",
+            title : 'Herbal Tea',
             price:'$30',
         },
         {
             id : 3,
             img : img3,
-            title : 'Macchiato',
+            title : 'Black Tea',
             price:'$30',
         },
         {
             id : 4,
             img : img5,
             price:'$30',
-            title : 'Iced Coffee'
+            title : 'White Tea'
         },
         {
             id : 5,
             img : img6,
             price:'$30',
-            title : 'Hot Chocolate'
+            title : 'Oolong Tea'
         },
         {
             id : 6,
             img : img7,
             price:'$30',
-            title : 'Mocha'
-        },
-        {
-            id : 7,
-            img : img4,
-            price:'$30',
-            title : 'Latte'
-        },
-        {
-            id : 8,
-            img : img8,
-            price:'$30',
-            title : 'Cold Brew',
+            title : 'Rooibos Tea'
         },
     ]
   return (
@@ -84,4 +72,4 @@ const TopRated = () => {
   )
 }
 
-export default TopRated
+export default Tea
