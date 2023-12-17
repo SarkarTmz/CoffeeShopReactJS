@@ -12,6 +12,7 @@ import img5 from '../images/5.webp'
 import img6 from '../images/6.jpg'
 import img7 from '../images/7.jpg'
 import img8 from '../images/8.jpg'
+import Menu from '../component/Menu';
 
 const Home = () => {
     const menu = [
@@ -67,11 +68,6 @@ const Home = () => {
               infiniteLoop={true}
               showStatus={false}
           >
-{/*                     
-                <div className='pp'>
-                    <img src={img8} />
-                    <p className="legend">Cold Brew</p>
-                </div> */}
                 {
                     menu.map((item) =>(
                         <>
@@ -85,13 +81,15 @@ const Home = () => {
                     ))
                 }
           </Carousel>
+
           <div className="items">
               <button className='btn'>Coffee</button>
               <button className='btn'>Tea</button>
               <button className='btn'>Cookie</button>
               <button className='btn'>Cake</button>
           </div>
-          <TopRated />
+          {/* <TopRated /> */}
+          <Menu/>
       </div>
     </>
   )

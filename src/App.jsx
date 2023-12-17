@@ -7,6 +7,7 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 import Footer from './component/Footer';
 import MobileNav from './component/MobileNav';
+import Single from './pages/Single';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <MobileNav/>
             <Routes>
               <Route path='/' element={<Home/>} />
+              <Route path="/single/:id" element={<Single />} />
               <Route path='about' element={<About/>} />
               <Route path='contact' element={<Contact/>} />
             </Routes>
