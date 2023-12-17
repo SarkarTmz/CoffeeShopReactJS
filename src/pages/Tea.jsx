@@ -1,14 +1,6 @@
 import React from 'react'
 import '../styles/TopRated.css'
 
-import img1 from '../images/1.webp'
-import img2 from '../images/2.webp'
-import img3 from '../images/3.jpg'
-import img4 from '../images/4.jpg'
-import img5 from '../images/5.webp'
-import img6 from '../images/6.jpg'
-import img7 from '../images/7.jpg'
-import img8 from '../images/8.jpg'
 
 const Tea = () => {
     const items = [
@@ -26,25 +18,25 @@ const Tea = () => {
         },
         {
             id : 3,
-            img : img3,
+            img : "https://images.unsplash.com/photo-1610137312679-8de3a836b455?ixid=M3wxMzcxOTN8MHwxfHNlYXJjaHw2fHxibGFjayUyMHRlYXxlbnwwfHx8fDE2OTcwMDIyNzl8MA&ixlib=rb-4.0.3&fm=jpg&w=5836&h=3629&fit=max",
             title : 'Black Tea',
             price:'$30',
         },
         {
             id : 4,
-            img : img5,
+            img : "https://www.organicfacts.net/wp-content/uploads/milktea1.jpg",
             price:'$30',
             title : 'White Tea'
         },
         {
             id : 5,
-            img : img6,
+            img : "https://media.post.rvohealth.io/wp-content/uploads/2020/09/AN538-Oolong-Tea-732x549-thumb.jpg",
             price:'$30',
             title : 'Oolong Tea'
         },
         {
             id : 6,
-            img : img7,
+            img : "https://www.naturalnews.com/wp-content/uploads/sites/91/2019/04/Rooibos-Tea-Healthy-Background-Plant-Roibos-Africa.jpg",
             price:'$30',
             title : 'Rooibos Tea'
         },
