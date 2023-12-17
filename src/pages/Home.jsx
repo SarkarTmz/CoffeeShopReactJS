@@ -88,8 +88,8 @@ const Home = () => {
               <button className='btn'>Cookie</button>
               <button className='btn'>Cake</button>
           </div>
-          {/* <TopRated /> */}
-          <Menu/>
+          <TopRated />
+          {/* <Menu/> */}
       </div>
     </>
   )

@@ -1,26 +1,75 @@
 import React from 'react'
 import '../styles/TopRated.css'
 
+import img1 from '../images/1.webp'
+import img2 from '../images/2.webp'
+import img3 from '../images/3.jpg'
+import img4 from '../images/4.jpg'
+import img5 from '../images/5.webp'
+import img6 from '../images/6.jpg'
+import img7 from '../images/7.jpg'
+import img8 from '../images/8.jpg'
+
 const TopRated = () => {
     const items = [
-        { id: 1, name: "Expresso", price:'$20',  imageUrl: 'https://t4.ftcdn.net/jpg/00/21/34/51/360_F_21345188_RjZizeIMhCVnvYzOpuCJhMs6rRy5gPIx.webp' },
-        { id: 2, name: "Expresso", price:'$20',  imageUrl: 'https://t4.ftcdn.net/jpg/00/21/34/51/360_F_21345188_RjZizeIMhCVnvYzOpuCJhMs6rRy5gPIx.webp' },
-        { id: 3, name: "Expresso", price:'$20',  imageUrl: 'https://t4.ftcdn.net/jpg/00/21/34/51/360_F_21345188_RjZizeIMhCVnvYzOpuCJhMs6rRy5gPIx.webp' },
-        { id: 4, name: "Expresso", price:'$20',  imageUrl: 'https://t4.ftcdn.net/jpg/00/21/34/51/360_F_21345188_RjZizeIMhCVnvYzOpuCJhMs6rRy5gPIx.webp' },
-        { id: 5, name: "Expresso", price:'$20',  imageUrl: 'https://t4.ftcdn.net/jpg/00/21/34/51/360_F_21345188_RjZizeIMhCVnvYzOpuCJhMs6rRy5gPIx.webp' },
-        { id: 6, name: "Expresso", price:'$20',  imageUrl: 'https://t4.ftcdn.net/jpg/00/21/34/51/360_F_21345188_RjZizeIMhCVnvYzOpuCJhMs6rRy5gPIx.webp' },
-        { id: 7, name: "Expresso", price:'$20',  imageUrl: 'https://t4.ftcdn.net/jpg/00/21/34/51/360_F_21345188_RjZizeIMhCVnvYzOpuCJhMs6rRy5gPIx.webp' },
-        { id: 8, name: "Expresso", price:'$20',  imageUrl: 'https://t4.ftcdn.net/jpg/00/21/34/51/360_F_21345188_RjZizeIMhCVnvYzOpuCJhMs6rRy5gPIx.webp' },
-      ];
+        {
+            id : 1,
+            img : img1,
+            price:'$30',
+            title : 'Espresso'
+        },
+        {
+            id : 2,
+            img : img2,
+            title : 'Americano',
+            price:'$30',
+        },
+        {
+            id : 3,
+            img : img3,
+            title : 'Macchiato',
+            price:'$30',
+        },
+        {
+            id : 4,
+            img : img5,
+            price:'$30',
+            title : 'Iced Coffee'
+        },
+        {
+            id : 5,
+            img : img6,
+            price:'$30',
+            title : 'Hot Chocolate'
+        },
+        {
+            id : 6,
+            img : img7,
+            price:'$30',
+            title : 'Mocha'
+        },
+        {
+            id : 7,
+            img : img4,
+            price:'$30',
+            title : 'Latte'
+        },
+        {
+            id : 8,
+            img : img8,
+            price:'$30',
+            title : 'Cold Brew',
+        },
+    ]
   return (
     <>
         <div>
-        <h2 className='top-h2'>Top Tests</h2>
+        <h2 className='top-h2'>Coffee</h2>
             <div className="lists">
                 {
                     items.map((item) => (
                             <div className="list">
-                                <img src={item.imageUrl} alt="" />
+                                <img src={item.img} alt="" />
                                 <div className="list-dis">
                                 <p>{item.name}</p>
                                 <p>{item.price}</p>

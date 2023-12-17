@@ -9,7 +9,7 @@
 .list{
     width: 100%;
     border-radius: 0.5rem;
-    background-color: var(--clr-main);
+    background-color: var(--clr-rose);
     justify-content: center;
     text-align: center;
 }
@@ -27,7 +27,7 @@
     transition: 0.3s;
 }
 .list-dis button:hover{
-    background-color: #ff6632;
+    background-color: #a1a1a1;
 }
 
 
