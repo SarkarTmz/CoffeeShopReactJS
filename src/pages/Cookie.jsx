@@ -2,49 +2,49 @@ import React from 'react'
 import '../styles/TopRated.css'
 
 
-const Tea = () => {
+const Cookie = () => {
     const items = [
         {
             id : 1,
-            img : "https://akm-img-a-in.tosshub.com/sites/visualstory/stories/2023_08/story_55314/assets/2.jpeg?time=1691768874&size=*:900",
+            img : "https://theheritagecook.com/wp-content/uploads/2011/07/Gingersnaps-Closeup.jpg",
             price:'$30',
-            title : 'Green Tea'
+            title : 'Gingersnaps'
         },
         {
             id : 2,
-            img : "https://brodandtaylor.com/cdn/shop/articles/dehydrated-tea-thumb_1024x.jpg?v=1639765759",
-            title : 'Herbal Tea',
+            img : "https://preppykitchen.com/wp-content/uploads/2021/07/Shortbread-cookies-Recipe-New.jpg",
+            title : 'Shortbread Cookies',
             price:'$30',
         },
         {
             id : 3,
-            img : "https://images.unsplash.com/photo-1610137312679-8de3a836b455?ixid=M3wxMzcxOTN8MHwxfHNlYXJjaHw2fHxibGFjayUyMHRlYXxlbnwwfHx8fDE2OTcwMDIyNzl8MA&ixlib=rb-4.0.3&fm=jpg&w=5836&h=3629&fit=max",
-            title : 'Black Tea',
+            img : "https://www.hersheyland.com/content/dam/hersheyland/en-us/recipes/recipe-images/85-reeses-candy-double-peanut-butter-cookies.jpg",
+            title : 'Peanut Butter Cookies',
             price:'$30',
         },
         {
             id : 4,
-            img : "https://www.organicfacts.net/wp-content/uploads/milktea1.jpg",
+            img : "https://i0.wp.com/frostingandglue.com/wp-content/uploads/2021/05/Whoopie-Pies-Michele-Final-H-scaled.jpg",
             price:'$30',
-            title : 'White Tea'
+            title : 'Whoopie Pies'
         },
         {
             id : 5,
-            img : "https://media.post.rvohealth.io/wp-content/uploads/2020/09/AN538-Oolong-Tea-732x549-thumb.jpg",
+            img : "https://preppykitchen.com/wp-content/uploads/2022/11/Chocolate-Biscotti-Recipe-Card.jpg",
             price:'$30',
-            title : 'Oolong Tea'
+            title : 'Biscotti'
         },
         {
             id : 6,
-            img : "https://www.naturalnews.com/wp-content/uploads/sites/91/2019/04/Rooibos-Tea-Healthy-Background-Plant-Roibos-Africa.jpg",
+            img : "https://www.savingdessert.com/wp-content/uploads/2013/12/Spritz-Cookies-2.jpg",
             price:'$30',
-            title : 'Rooibos Tea'
+            title : 'Spritz Cookies'
         },
     ]
   return (
     <>
         <div>
-        <h2 className='top-h2'>Tea</h2>
+        <h2 className='top-h2'>Cookies</h2>
             <div className="lists">
                 {
                     items.map((item) => (
@@ -64,4 +64,4 @@ const Tea = () => {
   )
 }
 
-export default Tea
+export default Cookie

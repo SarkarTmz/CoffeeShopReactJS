@@ -14,6 +14,7 @@ import img7 from '../images/7.jpg'
 import img8 from '../images/8.jpg'
 import Menu from '../component/Menu';
 import Tea from './Tea';
+import Cookie from './Cookie';
 
 const Home = () => {
     const menu = [
@@ -95,7 +96,9 @@ const Home = () => {
           <div className="section">
             <Tea/>
           </div>
-        
+          <div className="section">
+            <Cookie/>
+          </div>
           {/* <Menu/> */}
       </div>
     </>
