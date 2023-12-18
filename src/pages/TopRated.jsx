@@ -69,12 +69,13 @@ const TopRated = () => {
                 {
                     items.map((item) => (
                             <div className="list">
-                                <img src={item.img} alt="" />
-                                <div className="list-dis">
+                                  <div className="list-dis">
                                 <p>{item.title}</p>
                                 <p>{item.price}</p>
                                 <button>Order Now</button>
                                 </div>
+                                <img src={item.img} alt="" />
+                              
                             </div>
                     ))
                 }

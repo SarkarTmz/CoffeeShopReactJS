@@ -1,25 +1,31 @@
 .lists{
     display: grid;
     grid-template-columns: auto auto;
-    gap: 0.5rem;
+    gap: 1rem;
+    /* position: relative; */
 }
 .top-h2{
     margin-top: 2rem;
 }
 .list{
     width: 100%;
-    border-radius: 0.5rem;
-    background-color: var(--clr-rose);
+    height: 100%;
     justify-content: center;
     text-align: center;
 }
 .list img{
     width: 100%;
+    height: 100%;
     border-radius: 0.5rem;
+    object-fit: cover;
 }
-/* .list-dis{
-    display: flex;
-} */
+.list-dis{
+    position: absolute;
+    background-color: var(--clr-rose);
+    margin-top: 8%;
+    border-radius: 1rem;
+    width: 15%;
+}
 .list-dis button{
     background-color: var(--clr-light);
     padding: 0.3rem;
@@ -43,7 +49,7 @@
     .lists{
         display: grid;
         grid-template-columns: auto auto auto;
-        gap: 0.5rem;
+        gap: 1rem;
     }
   }
   
