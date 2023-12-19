@@ -13,7 +13,7 @@ const MobileNav = () => {
   return (
     <div className= "mobile-nav">
       <Link to="/">
-       <h2>Coffee</h2>
+       <h2>Mitho Coffee</h2>
       </Link>
       
       <VscThreeBars className="bar"

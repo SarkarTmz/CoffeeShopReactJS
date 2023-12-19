@@ -1,12 +1,20 @@
-.navbar{
-  
+.navbar a{
+  text-decoration: none;
+  color: var(--clr-light);
 }
 .navbar-main{
   padding: 1rem 0;
   background-color: rgb(44, 44, 44);
   display: none;
 }
-
+.navbar-wrapper{
+  transition: 0.3s;
+}
+.navbar-wrapper a:hover{
+  border-bottom: 5px solid var(--clr-rose);
+  transition: 0.3s;
+  /* border: 2px 2px solid var(--clr-rose); */
+}
 /* xs */
 @media (min-width: 475px){
     .container{
@@ -34,7 +42,7 @@
       top: 0;
     }
     .navbar{
-      color: var(--clr-light);
+        color: var(--clr-light);
         display: flex;
         justify-content: space-between;
     }
