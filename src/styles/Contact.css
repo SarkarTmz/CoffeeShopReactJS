@@ -5,7 +5,6 @@ form{
     border: 2px solid var(--clr-rose);
     border-radius: 10px;
     padding: 2.5rem;
-    width: 70%;
     margin: 0 auto;
 }
 label{
@@ -55,7 +54,11 @@ input,textarea{
     }
     .form{
       margin-top: 9rem;
-  }
+    }
+    form{
+      width: 70%;
+    }
+    
   }
   
   /* lg */
