@@ -13,7 +13,7 @@
     height: 100%;
     position: relative;
     justify-content: center;
-    text-align: center;
+    /* text-align: center; */
     background-color: var(--clr-rose);
     transition: 0.3s;
     border: 2px solid var(--clr-rose);
@@ -38,7 +38,8 @@
     width: 50%;
 }
 .list-dis p{
-    font-size: 0.7rem;
+    font-size: 0.9rem;
+    margin-left: 0.4rem;
     font-weight: 500;
 }
 .list-dis button{
