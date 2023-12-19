@@ -22,6 +22,7 @@ const MobileNav = () => {
       <div className= {isOpen ? "mobile-li" : "menu-li"}  id="mobile">
         <ul>
             <Link to="/">Home</Link>
+            <Link to="menu">Menu</Link>
             <Link to="about">About</Link>
             <Link to="Contact">Contact</Link>
         </ul>
