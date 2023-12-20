@@ -17,6 +17,7 @@ import Tea from './Tea';
 import Cookie from './Cookie';
 import Cake from './Cake';
 
+
 const Home = () => {
     const menu = [
         {
@@ -78,7 +79,7 @@ const Home = () => {
                             <img src={item.img} />
                         </div>
                         <div className='pp'>
-                            <p className="">{item.title}</p>
+                            {/* <p className="">{item.title}</p> */}
                         </div>
                         </>
                     ))

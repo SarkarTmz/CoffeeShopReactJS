@@ -47,7 +47,7 @@
     padding: 0.3rem;
     font-size: 0.7rem;
     border-radius: 0.3rem;
-    font-weight: 500;
+    font-weight: 600;
     transition: 0.3s;
 }
 .list-dis button:hover{
@@ -77,11 +77,6 @@
         gap: 0.9rem;
     }
   }
-  
-    /* lg */
-    @media (min-width: 896px){
-      
-    }
   
     /* xl */
     @media (min-width: 1024px){

@@ -58,12 +58,6 @@ hr{
     }
   }
   
-    /* lg */
-    @media (min-width: 896px){
-        .footer{
-            margin: 0 20rem;
-        }
-    }
   
     /* xl */
     @media (min-width: 1024px){
